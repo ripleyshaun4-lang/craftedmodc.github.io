@@ -1,0 +1,83 @@
+/* Main Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    padding: 60px 20px;
+    text-align: center;
+    background: #020617;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    max-width: 600px;
+    margin: 10px auto 20px;
+    color: #cbd5f5;
+}
+
+.btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 12px 20px;
+    background: #22c55e;
+    color: #000;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: #020617;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+footer {
+    background: #020617;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #94a3b8;
+}
+
+footer a {
+    color: #94a3b8;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav {
+    background: #111827;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #e5e7eb;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    color: #22c55e;
+}
